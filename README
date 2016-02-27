@@ -1,0 +1,18 @@
+README
+Crispy-Scheduler is a simple tool to schedule resources given time constraints.
+
+CONTACT
+To report problems or to pose questions or suggestions, please contact:
+Melanie Cornelius (nee Dooley)
+melanie.e.cornelius@gmail.com
+mseryn @ Github
+
+GIT
+To download the latest version of Crispy-Scheduler, do the following:
+
+> git clone https://github.com/mseryn/crispy-scheduler.git
+
+AUTHORSHIP AND LICENSING:
+Written By: Melanie Cornelius (nee Dooley)
+
+Protected under the GNU GPL V3
