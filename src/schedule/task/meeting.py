@@ -32,9 +32,12 @@ def meeting():
     def set_room(room):
         self._room = room
 
-    def set_participants(participants):
-        print("WARNING: setting participants erases former participants list")
+    def overwrite_participants(participants):
         self._participants = participants
 
-    def add_participant(participant):
-        self._participants.append(participant)
+    def clear_participants():
+        self._participants = []
+
+    def add_participants(participants):
+        for participant in participants:
+            self._participants.append(participant)
