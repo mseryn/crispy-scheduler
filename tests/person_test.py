@@ -47,11 +47,11 @@ def test_overwrite_task():
     assert_true((test_person.get_name() == [test_meeting]), \
         "overwrite task in person not correctly set")
 
-def test_add_task():
+def test_add_tasks():
     test_meeting1 = schedule.task.meeting()
     test_meeting2 = schedule.task.meeting()
     test_person = schedule.resource.person(test_meeting1)
-    test_person.add_task(test_meeting2)
+    test_person.add_tasks([test_meeting2])
     assert_true((test_person.get_name() == [test_meeting1, test_meeting2]), \
         "add task in person not correctly set")
 
