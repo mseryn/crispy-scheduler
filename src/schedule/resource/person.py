@@ -18,5 +18,6 @@ def person():
     def clear_tasks(self):
         self._tasks = []
 
-    def add_task(self, task):
-        self._tasks.append(task)
+    def add_tasks(self, tasks):
+        for task in tasks:
+            self._tasks.append(task)
